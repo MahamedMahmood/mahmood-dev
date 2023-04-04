@@ -9,7 +9,7 @@ document.getElementById("Newsletter").addEventListener("submit", e => {
     myFormData.append("time", Date.now());
 
     for( let key of myFormData.keys()) {
-        // console.log(key, myFormData.get(key));
+        console.log(key, myFormData.get(key));
     }
 
 
